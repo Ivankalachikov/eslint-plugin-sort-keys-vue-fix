@@ -1,4 +1,4 @@
-# eslint-plugin-sort-keys-vue-fix
+# eslint-plugin-sort-keys-vue-fix-mod
 
 Fork of eslint rule that sorts keys in objects (https://eslint.org/docs/rules/sort-keys) with autofix enabled compatible with vue order-in-components
 
@@ -10,7 +10,7 @@ You'll first need to install [ESLint](https://eslint.org/):
 npm i eslint --save-dev
 ```
 
-Next, install `eslint-plugin-sort-keys-vue-fix`:
+Next, install `eslint-plugin-sort-keys-vue-fix-mod`:
 
 ```sh
 npm install eslint-plugin-sort-keys-vue-fix --save-dev
@@ -23,7 +23,7 @@ Add `sort-keys-vue-fix` to the plugins section of your `.eslintrc` configuration
 ```json
 {
     "plugins": [
-        "sort-keys-vue-fix"
+        "sort-keys-vue-fix-mod"
     ]
 }
 ```
@@ -34,7 +34,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "sort-keys-vue-fix/sort-keys-vue-fix": "warn"
+        "sort-keys-vue-fix-mod/sort-keys-vue-fix": "warn"
     }
 }
 ```
